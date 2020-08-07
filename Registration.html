@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="matrimony.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-style" style="background-color: rgba(201, 74, 28, 0.849);">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-rings-wedding"></i>
+            Matrimony Website
+        </a>
+        
+          <div class="nav navbar-header">
+              <ul class="nav navbar-nav">
+                  <li><a href="login.html" class="nav-link">Login</a></li>
+                  <li><a href="Registration.html" class="nav-link">Register</a></li>
+                  <li><a href="Myprofile.html" class="nav-link">Profile</a></li>
+                  <li><a href="search.html" class="nav-link">Search</a></li>
+                  <li><a href="Contactus.html" class="nav-link">Contact us</a></li>
+                  <li><a href="notifications.html" class="nav-link">Notifications<span class="badge badge-light">4</span></a></li>
+
+              </ul>
+          </div>
+    </nav>
+
+
+        
+    <!-- <img src="D:\Angular\BeconMatrimony\Wedding2.jpg" class="img-fluid img-responsive" alt="Responsive image"  width= "100% \9">
+    <img src="D:\Angular\BeconMatrimony\Wedding1.jpg" class="img-fluid" alt="Responsive image" width ="100%">
+    <img src="D:\Angular\BeconMatrimony\Wedding3.jpg" class="img-fluid" alt="Responsive image" width ="100%"> -->
+    <body> 
+        <div class="container col-sm-8 col-md-6 col-lg-6 col-xl-4 col2">
+            
+            <form action="#">
+                <h3><i>Register Here  </i></h3><br>
+                <div class="form-group row name">
+                  <label for="inputEmail3" class="col-3 col-form-label">Name</label>
+                  <input type="text" id="customRadioInline1" name="customRadioInline1" class="form-control col-8">
+                </div>
+                <div class="form-group row gender">
+                  <label for="inputEmail3" class="col-3 col-form-label">Gender</label>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                  </div>
+                </div>
+
+                <!-- <div class="form-group row name mr-4">
+                  <label for="inputEmail3" class="col-4 col-form-label">Gender</label>
+                  <div>
+                    <input class="form-check-input col-1 mt-3" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label for="inputEmail3" class="col-4 col-form-label">Male</label>
+                  </div>
+                  <div>
+                    <input class="form-check-input col-1 mt-3" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label for="inputEmail3" class="col-4 col-form-label">Female</label>
+                  </div>
+                </div> -->
+                <!-- <div class="form-group row gender">
+                  <label for="inputEmail3" class="col-form-label">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Male</label>
+                </div>
+              </div> -->
+              <div class="form-group row maritalStatus">
+                <label for="inputEmail3" class="col-3 col-form-label">Marital status</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Single</option>
+                  <option>Divorced</option>
+                  <option>Widowed</option>
+                  <option>Awaiting for Divorce</option>
+                </select>
+              </div>
+              <div class="form-group row DOB">
+                <label for="inputEmail3" class="col-3 col-form-label">Date of Birth</label>
+                <input type="calendar" id="customRadioInline1" name="customRadioInline1" class="form-control col-8">
+              </div>
+              <div class="form-group row Religion">
+                <label for="inputEmail3" class="col-3 col-form-label">Religion</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Hindu</option>
+                    <option>Muslim</option>
+                    <option>Christian</option>
+                    <option>other</option>
+                </select>
+              </div>
+              <div class="form-group row Caste">
+                <label for="inputEmail3" class="col-3 col-form-label">Caste</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Aharwal</option>
+                    <option>Brahmin</option>
+                    <option>Mudhaliyar</option>
+                    <option>Nadar</option>
+                </select>
+              </div>
+              <div class="form-group row MotherTongue">
+                <label for="inputEmail3" class="col-3 col-form-label">Mother tongue</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Tamil</option>
+                    <option>Telugu</option>
+                    <option>Malyalam</option>
+                    <option>Kanada</option>
+                </select>
+              </div>
+              <div class="form-group row Qualification">
+                <label for="inputEmail3" class="col-3 col-form-label">Qualification</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Bachelor's Degree</option>
+                    <option>Master's Degree</option>
+                    <option>Ph.D</option>
+                    <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group row Job">
+                <label for="inputEmail3" class="col-3 col-form-label">Job</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>IT-software/Hardware</option>
+                    <option>Medical</option>
+                    <option>Business</option>
+                    <option>Govt employee</option>
+                    <option>Freelancer</option>
+                    <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group row FathersJob">
+                <label for="inputEmail3" class="col-3 col-form-label">Father's Job</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>IT-software/Hardware</option>
+                  <option>Medical</option>
+                  <option>Business</option>
+                  <option>Govt employee</option>
+                  <option>Freelancer</option>
+                  <option>Others</option>
+                </select>
+              </div>
+             <div class="form-group row MothersJob">
+                <label for="inputEmail3" class="col-3 col-form-label">Mother's Job</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>IT-software/Hardware</option>
+                  <option>Medical</option>
+                  <option>Business</option>
+                  <option>Govt employee</option>
+                  <option>Freelancer</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group row Siblings">
+                <label for="inputEmail3" class="col-3 col-form-label">Siblings</label>
+                <input type="text" id="customRadioInline1" name="customRadioInline1" class="form-control col-8">
+              </div>
+              <div class="form-group row State">
+                <label for="inputEmail3" class="col-3 col-form-label">State</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Tamilnadu</option>
+                    <option>Karnataka</option>
+                    <option>Aandhra</option>
+                    <option>Telangana</option>
+                    <option>Others</option>
+                </select>
+              </div>
+              <div class="form-group row District">
+                <label for="inputEmail3" class="col-3 col-form-label">District</label>
+                <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                    <option>Salem</option>
+                    <option>Namakkal</option>
+                    <option>Erode</option>
+                    <option>Coimbatore</option>
+                    <option>Others</option>
+                </select>
+              </div>
+
+              <div class="form-group row aboutMe&Family">
+                <label for="inputEmail3" class="col-3 col-form-label">About me and family</label>
+                <textarea class="form-control col-8" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div> <br>
+              
+              <h3><u><i>My Preference</i></u></h3><br>
+              <div class="form-group row Job">
+                <label for="inputEmail3" class="col-3 col-form-label">Age Limit</label>
+                <select class="form-control col-1 pl-0 " id="exampleInputmobile" placeholder="Male">
+                  <option selected>18</option>
+                  <option value="1">20</option>
+                  <option value="2">21</option>
+                  <option value="3">22</option>
+                </select>
+                &nbsp;
+                &nbsp;
+                <span class="mt-1">to</span>
+                &nbsp;
+                &nbsp;
+                <select class="form-control col-1 pl-0 " id="exampleInputmobile" placeholder="Male">
+                  <option selected>20</option>
+                  <option value="1">21</option>
+                  <option value="2">22</option>
+                  <option value="3">23</option>
+                </select>
+                &nbsp;
+                &nbsp;
+                <span class="mt-1">Years</span>
+              </div>
+              <!-- <div class="form-group row ">
+                <label for="ageLimit" class="col-3 col-form-label">Age Limit</label>
+                <div class="col-2">
+                    <div class="my-2">
+                        <select class="custom-select mr-sm-1 form-control ml-0" id="inlineFormCustomSelect">
+                          <option selected>18</option>
+                          <option value="1">20</option>
+                          <option value="2">21</option>
+                          <option value="3">22</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="mt-2">to</p>
+                <div class="col-2">
+                    <div class=" my-2">
+                        <select class="custom-select mr-sm-2 ml-2" id="inlineFormCustomSelect">
+                          <option selected>20</option>
+                          <option value="1">21</option>
+                          <option value="2">22</option>
+                          <option value="3">23</option>
+                        </select>
+                    </div>
+                </div>
+             </div> -->
+             <div class="form-group row maritalStatus">
+              <label for="inputEmail3" class="col-3 col-form-label">Marital status</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Single</option>
+                  <option>Divorced</option>
+                  <option>Widowed</option>
+                  <option>Awaiting for Divorce</option>
+              </select>
+            </div>
+            <div class="form-group row Star">
+              <label for="inputEmail3" class="col-3 col-form-label">Star</label>
+              <input type="text" id="customRadioInline1" name="customRadioInline1" class="form-control col-8">
+            </div>
+            <div class="form-group row Religion">
+              <label for="inputEmail3" class="col-3 col-form-label">Religion</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Hindu</option>
+                  <option>Muslim</option>
+                  <option>Christian</option>
+                  <option>other</option>
+              </select>
+            </div>
+            <div class="form-group row Caste">
+              <label for="inputEmail3" class="col-3 col-form-label">Caste</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Aharwal</option>
+                  <option>Brahmin</option>
+                  <option>Mudhaliyar</option>
+                  <option>Nadar</option>
+              </select>
+            </div>
+            <div class="form-group row MotherTongue">
+              <label for="inputEmail3" class="col-3 col-form-label">Mother tongue</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Tamil</option>
+                  <option>Telugu</option>
+                  <option>Malyalam</option>
+                  <option>Kanada</option>
+              </select>
+            </div>
+            <div class="form-group row Qualification">
+              <label for="inputEmail3" class="col-3 col-form-label">Qualification</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>Bachelor's Degree</option>
+                  <option>Master's Degree</option>
+                  <option>Ph.D</option>
+                  <option>Others</option>
+              </select>
+            </div>
+            <div class="form-group row Job">
+              <label for="inputEmail3" class="col-3 col-form-label">Job</label>
+              <select class="form-control col-8 ml-0" id="exampleInputmobile" placeholder="Male">
+                  <option>IT-software/Hardware</option>
+                  <option>Medical</option>
+                  <option>Business</option>
+                  <option>Govt employee</option>
+                  <option>Freelancer</option>
+                  <option>Others</option>
+              </select>
+            </div>
+            <div class="form-group row aboutMe&Family">
+              <label for="inputEmail3" class="col-3 col-form-label">About my Partner</label>
+              <textarea class="form-control col-8" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div> 
+                <button type="submit" class="btn btn-success mr-5" style="float: right;">Register Now</button>
+                
+              </form>
+            
+                
+        </div>
+
+    </body> 
+            <footer class="full-footer">
+                        <a>Contact us : example@matrimony.com</a>
+                </footer>
+</html>

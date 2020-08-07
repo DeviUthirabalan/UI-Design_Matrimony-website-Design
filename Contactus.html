@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="matrimony.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </head>
+    <nav class="navbar navbar-expand-lg navbar-style" style="background-color: rgba(201, 74, 28, 0.849);width: auto;">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-rings-wedding"></i>
+            Matrimony Website
+        </a>
+        
+          <div class="nav navbar-header">
+              <ul class="nav navbar-nav">
+                  <li><a href="login.html" class="nav-link">Login</a></li>
+                  <li><a href="Registration.html" class="nav-link">Register</a></li>
+                  <li><a href="Myprofile.html" class="nav-link">Profile</a></li>
+                  <li><a href="search.html" class="nav-link">Search</a></li>
+                  <li><a href="Contactus.html" class="nav-link">Contact us</a></li>
+                  <li><a href="notifications.html" class="nav-link">Notifications<span class="badge badge-light">4</span></a></li>
+
+              </ul>
+          </div>
+    </nav>
+    <body>
+        <div style="padding: 2%;width: auto; " >
+            <table  >
+                <tr>
+                    <h3 style="color: white;"><label><u><i>Contact Us</i></u></label></h3>
+                    <div class="address">
+                        Email: <a href="mailto:webmaster@example.com">abcmatrimony@gmail.com</a><br>
+                        Mobile:9000000002<br>
+                        564,Gandhi road,chennai-28<br>
+                        India
+                    </div>
+                </tr>
+                <br>
+                <tr>
+                    <!-- <form class="form-group">
+                        <h3><label><u><i>Select a Payment method</i></u></label></h3>
+                        <div class="card p-2 m-2" style="width: 38rem;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                Pay Pal
+                                </label>
+                            </div>
+                        </div>
+                        <div class="card p-2 m-2" style="width: 38rem;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                Google Pay
+                                </label>
+                            </div>
+                        </div>
+                        <div class="card p-2 m-2" style="width: 38rem;">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                Amazon Pay
+                                </label>
+                            </div>
+                        </div>
+                        <div class="card p-2 m-2" style="width: 38rem;">
+                        <div class="card ml-2" style="width: 35rem;">
+                            <div class="card-header">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Credit card</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Debit card</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Cashcard</label>
+                                </div>
+                            </div>
+                            <ul class="list-group list-group-flush" style="list-style: none;">
+                            <li class="list-group-item"><label>Card Number</label><input type="text" class="form-control"></li>
+                            <li> <div class="row ml-3">
+                            <div class="col-3"><label>CVV</label><input type="text" class="form-control"></div> 
+                            <div class="col-3"><label>Expiry</label><input type="text" class="form-control"></div> 
+                            <div class="col-3"><label>Year</label><input type="text" class="form-control"></div> </li>
+                            <li class="list-group-item"><label>Name of the Card</label><input type="text" class="form-control"></li>
+                            </ul>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-3 col-form-label ml-3">Enter Amount</label>
+                            <div class="row m-2">
+                            <div class="col-5"><input type="email" class="form-control" id="inputEmail3"></div> 
+                            <div class="col-6"><button type="button" class="btn btn-success">Poceed to pay</button></div> 
+                            </div>
+                        </div>
+                    </div>
+                    </form> -->
+                    <form>
+                        <h3 style="color: white;"><label><u><i>Select a Payment method</i></u></label></h3>
+                    <div class="payment card p-2 m-1" style="width: 38rem;">
+                        <div class="card-header m-0"><b>NetBanking</b></div>
+                        <div class="form-group row">
+                            <label for="ifsc code" class="col-sm-4 col-form-label">Bank Name</label>
+                            <div class="col-sm-6">
+                                <p  id="inputPassword" placeholder="xxxxxxxxxxxxx">xxxxxxxxxxxxxx</p>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="ifsc code" class="col-sm-4 col-form-label">Account Number</label>
+                            <div class="col-sm-6">
+                              <p  id="inputPassword" placeholder="xxxxxxxxxxxxx">xxxxxxxxxxxxxx</p>
+                            </div>
+                          </div>
+                        <div class="form-group row">
+                          <label for="ifsc code" class="col-sm-4 col-form-label">IFSC code</label>
+                          <div class="col-sm-6">
+                            
+                            <p  id="inputPassword" placeholder="xxxxxxxxxxxxx">xxxxxxxxxxxxxx</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card m-1 p-2" style="width: 38rem;">
+                        <div class="form-group row">
+                            <label for="ifsc code" class="col-sm-4 col-form-label">Google Pay</label>
+                            <div class="col-sm-6">
+                                <p  id="inputPassword" placeholder="xxxxxxxxxxxxx">xxxxxxxxxxxxxx</p>
+                            </div>
+                          </div>
+
+                    </div>
+                      </form>
+                   
+                </tr>
+
+            </table>
+        </div>
+    </body>
+    <footer class="full-footer">
+        <a>Contact us : example@matrimony.com</a>
+   </footer>
+</html>
+<style>
+    body{
+        /* background-image: linear-gradient('to top left',rgb(247, 238, 238), rgba(158, 155, 147, 0.973)); */
+        /* background: linear-gradient(to right, #ffcc66 13%, #ff3300 100%); */
+        background-image: url(Images/Image_6.jpg);
+        /* background-image: cross-fade(#ff3300);          */
+        
+            /* padding-left: 2%; */
+    }
+    .address{
+        font-style: italic;
+        padding-left: 2%;
+        font-weight: bold;
+        color:white;
+        /* float: right; */
+        /* text-align: left; */
+    }
+    form{
+        background-color: none;
+        border:none;
+        background-image: none;
+    }
+</style>

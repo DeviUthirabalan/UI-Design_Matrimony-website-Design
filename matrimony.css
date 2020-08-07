@@ -1,0 +1,90 @@
+
+    .navbar-brand{
+        color:black;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    .nav-link{
+        font-weight: bold;
+        color:black;
+        padding:10px;
+        font-style: italic;
+        
+    }
+    nav{
+        width:100%
+    }
+    .nav-link:hover{
+        font-weight: bold;
+        color:white;
+    }
+    nav a:hover{
+        color:black;
+    }
+    .container{
+        float: right;;
+    }
+    form{
+        border-radius: 20px;
+        background-image: linear-gradient(rgb(230, 52, 52), rgb(231, 165, 23));
+        border: 2px solid chocolate;
+        padding: 10px;
+        float:right;
+        height:45%;
+        width: 130%;
+        margin-bottom: 20%;
+        margin-top:10%;
+        color: black;
+        position:center;
+
+    }
+    @media only screen and (max-width :600px){
+        form{
+            width:100%;
+        }
+    }
+    label{
+        font-weight: bold;
+    }
+    /* input[type="text,email,password"]{     
+        background: transparent;
+        border: 2px solid black
+    } */
+
+
+    body{
+        background: url(Images/MultiHearts.jpg);
+        
+        /* background-image: url(Images/orangering.jpg), url(Images/redheart.jpg);
+        background-position: bottom left, right top; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-top: 0%;
+        margin-bottom: 3.42857rem;
+    }
+    
+       
+
+        
+    
+ 
+
+    @media only screen and (max-width: 600px) {
+        body {
+          background-image:url('Images/orangebg.jpg');
+          
+        }
+       
+      }
+   footer {
+        padding: 10px;
+        position: fixed;
+        left: 0;
+        bottom: 0; 
+        width: 100%;
+        background-color:rgb(199, 70, 23);
+        color: white;
+        text-align: center;
+}
