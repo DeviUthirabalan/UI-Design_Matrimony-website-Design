@@ -1,2 +1,2 @@
 # UI-projects
-UI design of a professional Matrimony site
+UI Pages of a professional Matrimony site
